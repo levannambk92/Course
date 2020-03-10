@@ -347,6 +347,47 @@ p.vs_icon_check::before {
 }
 
 /*-- END OF SECTION 5 --*/
+/*-- CONTACT FORM --*/
+.section_6 .three_column_25_50_25 .column_1 {
+  width: 100%;
+  text-align: center;
+}
+
+.section_6 .three_column_25_50_25 .column_1 h2 {
+  margin-bottom: 20px;
+}
+
+.section_6 .three_column_25_50_25 .column_1 p {
+  margin-bottom: 10px;
+}
+
+.section_6 .three_column_25_50_25 .column_2, .section_6 .three_column_25_50_25 .column_3 {
+  width: 100%;
+}
+
+.section_6 .contact_row .label {
+  text-align: left;
+  font-family: myfont;
+  font-size: 12px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+.section_6 .contact_row .input {
+  width: 100%;
+  border-bottom: 1px solid #f4f6f7;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: transparent;
+  margin: 20px 0;
+}
+
+.section_6 .contact_row input, .section_6 .contact_row textarea {
+  color: #FFFFFF;
+}
+
+/*-- END OF CONTACT FORM --*/
 @media screen and (max-width: 767px) {
   .main_header .mobile_menu_button {
     width: 35%;
@@ -381,6 +422,102 @@ p.vs_icon_check::before {
     display: none;
   }
   /*-- END OF MENU --*/
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 46px;
+    line-height: 63px;
+    font-weight: 700;
+    color: #13253a;
+  }
+  h3 {
+    font-size: 38px;
+    line-height: 52px;
+    font-weight: 700px;
+    color: #13253a;
+    margin: 0;
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #3b4d6c;
+  }
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .header_inner_left {
+    float: left;
+    width: 70%;
+  }
+  .header_inner_right {
+    padding: 2px 0;
+  }
+  .container_header {
+    margin: auto;
+    padding: 40px 20px;
+  }
+  .main_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+  }
+  .menu_item {
+    margin: 0 15px;
+  }
+  .mobile_menu_button {
+    display: none;
+  }
+  /*-- SECTION 1 --*/
+  .section_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section_1 .column_1, .section_1 .column_2 {
+    width: 50%;
+    float: left;
+  }
+  .text {
+    padding-right: 60px;
+  }
+  /*-- END OF SECTON 1 --*/
+  /*-- CONTACT FORM --*/
+  .section_6 .three_column_25_50_25 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section_6 .three_column_25_50_25 .column_1 {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+  .section_6 .three_column_25_50_25 .column_1 h2 {
+    margin-bottom: 60px;
+  }
+  .section_6 .three_column_25_50_25 .column_1 p {
+    margin-bottom: 10px;
+  }
+  .section_6 .three_column_25_50_25 .column_2, .section_6 .three_column_25_50_25 .column_3 {
+    float: left;
+    width: 25%;
+  }
+  .section_6 .contact_row {
+    margin: 40px 0;
+  }
+  .section_6 .contact_row .label {
+    text-align: left;
+    font-family: myfont;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .section_6 .contact_row input, .section_6 .contact_row textarea {
+    font-size: 16px;
+  }
+  /*-- END OF CONTACT FORM --*/
 }
 
 @media screen and (min-width: 1200px) {
@@ -490,68 +627,16 @@ p.vs_icon_check::before {
     padding: 0px 180px;
   }
   /*-- END OF SECTION 5 --*/
-}
-
-@media screen and (min-width: 1024px) {
-  h2 {
-    font-size: 46px;
-    line-height: 63px;
-    font-weight: 700;
-    color: #13253a;
+  /*-- CONTACT FORM --*/
+  .section_6 .one_column_100 .column_1 {
+    text-align: center;
   }
-  h3 {
-    font-size: 38px;
-    line-height: 52px;
-    font-weight: 700px;
-    color: #13253a;
-    margin: 0;
+  .section_6 .one_column_100 .column_1 h2 {
+    margin-bottom: 40px;
   }
-  h4 {
-    font-size: 20px;
-    line-height: 28px;
-    color: #3b4d6c;
+  .section_6 .one_column_100 .column_1 p {
+    margin-bottom: 10px;
   }
-  p {
-    font-size: 14px;
-    line-height: 24px;
-  }
-  .header_inner_left {
-    float: left;
-    width: 70%;
-  }
-  .header_inner_right {
-    padding: 2px 0;
-  }
-  .container_header {
-    margin: auto;
-    padding: 40px 20px;
-  }
-  .main_menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    list-style-type: none;
-  }
-  .menu_item {
-    margin: 0 15px;
-  }
-  .mobile_menu_button {
-    display: none;
-  }
-  /*-- SECTION 1 --*/
-  .section_1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .section_1 .column_1, .section_1 .column_2 {
-    width: 50%;
-    float: left;
-  }
-  .text {
-    padding-right: 60px;
-  }
-  /*-- END OF SECTON 1 --*/
 }
 
 @media screen and (min-width: 1440px) {
