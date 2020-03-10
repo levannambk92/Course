@@ -249,15 +249,16 @@ p.sub_title {
 
 /*-- END OF SECTION 2 --*/
 /*-- SECTION 3 --*/
-.section_3_3 .column_1, .section_3_3 .column_2 {
+.section_3_3 .column_1,
+.section_3_3 .column_2 {
   padding-bottom: 20px;
 }
 
-.section_3_3 .icon_title {
+.section_3 .icon_title {
   position: relative;
 }
 
-.section_3_3 .icon_title::after {
+.section_3 .icon_title::after {
   content: '+';
   color: #FF7F57;
   position: absolute;
@@ -265,7 +266,7 @@ p.sub_title {
           transform: translateX(5px);
 }
 
-.section_3_3 .icon_subtitle {
+.section_3 .icon_subtitle {
   margin-left: 10px;
 }
 
@@ -286,12 +287,8 @@ p.sub_title {
   margin-top: 30px;
 }
 
-.two_column_40_60 p {
+.section_4 .two_column_40_60 p {
   margin-bottom: 10px;
-}
-
-.two_column_40_60 p.vs_icon_check {
-  margin-bottom: 10px !important;
 }
 
 .vs_about_us_italic {
@@ -303,7 +300,9 @@ p.sub_title {
   padding-top: 30px;
 }
 
-.section_4_4_logo .column_1, .section_4_4_logo .column_2, .section_4_4_logo .column_3, .section_4_4_logo .column_4, .section_4_4_logo .column_5 {
+.section_4_4_logo .column_1, .section_4_4_logo .column_2,
+.section_4_4_logo .column_3, .section_4_4_logo .column_4,
+.section_4_4_logo .column_5 {
   text-align: center;
 }
 
@@ -313,6 +312,10 @@ p.sub_title {
   background-color: #DCE2E6;
   margin: 10px 0;
   display: none;
+}
+
+.section_4 .two_column_40_60 p.vs_icon_check {
+  margin-bottom: 10px;
 }
 
 p.vs_icon_check::before {
@@ -418,7 +421,9 @@ p.vs_icon_check::before {
     display: -ms-flexbox;
     display: flex;
   }
-  .three_column_33_33_33 .column_1, .three_column_33_33_33 .column_2, .three_column_33_33_33 .column_3 {
+  .three_column_33_33_33 .column_1,
+  .three_column_33_33_33 .column_2,
+  .three_column_33_33_33 .column_3 {
     width: 33.3333333%;
     float: left;
   }
@@ -462,7 +467,9 @@ p.vs_icon_check::before {
   .section_4_4 .column_2 p {
     padding-right: 60px;
   }
-  .section_4_4_logo .column_1, .section_4_4_logo .column_2, .section_4_4_logo .column_4, .section_4_4_logo .column_5 {
+  .section_4_4_logo .column_1, .section_4_4_logo .column_2,
+  .section_4_4_logo .column_4,
+  .section_4_4_logo .column_5 {
     text-align: center;
     padding: 20px 0;
     float: left;
@@ -602,7 +609,9 @@ p.vs_icon_check::before {
   }
   /*--  END OF SECTION 1 --*/
   /*-- SECTION 3 --*/
-  .section_3_3 .column_1, .section_3_3 .column_2, .section_3_3 .column_3 {
+  .section_3_3 .column_1,
+  .section_3_3 .column_2,
+  .section_3_3 .column_3 {
     padding-top: 0px;
     padding-bottom: 0px;
   }
