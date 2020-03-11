@@ -114,6 +114,20 @@ a:link {
 }
 
 /*-- MENU --*/
+.main_header {
+  z-index: 1000;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 120px;
+}
+
 .menu_item a span {
   color: #13253a;
 }
