@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+@font-face {
+    font-family: myfont;
+    src: url(fonts//AvenirNextCyr-Regular.ttf);
+}
+@font-face {
+    font-family: myfont_bold;
+    src: url(fonts//AvenirNextCyr-Bold.ttf);
+}
+@font-face {
+    font-family: myfont_semibold;
+    src: url(fonts/AvenirNextCyr-Demi.ttf);
+}
+@font-face {
+    font-family: myfont_italic;
+    src: url(fonts/AvenirNextCyr-Italic.ttf);
+}
+.content {
+    width: 100%;
+}
